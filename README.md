@@ -1,9 +1,4 @@
 # FarmConnect Africa 🌾
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Made for Africa](https://img.shields.io/badge/Made%20for-Africa-green.svg)]()
-
 > Empowering Africa's 50 million smallholder farmers through accessible agricultural intelligence
 
 FarmConnect Africa is an open-source, offline-first mobile platform designed to bridge the digital divide in African agriculture. Built specifically for low-resource environments, it provides farmers with localized crop advisories, market intelligence, weather forecasts, and direct market access—all accessible on basic feature phones via USSD and SMS.
@@ -268,39 +263,7 @@ We welcome contributions from developers, agronomists, designers, and anyone pas
 5. **Translate**: Help localize to more African languages
 6. **Share Knowledge**: Add farming best practices to the knowledge base
 
-### Areas We Need Help
 
-- 🌍 **Localization**: Translators for African languages
-- 🎨 **UI/UX**: Designers familiar with low-literacy interfaces
-- 🌾 **Agronomy**: Agricultural experts for crop advisory content
-- 🔒 **Security**: Security researchers for vulnerability testing
-- 📊 **Data Science**: ML engineers for predictive models
-- 📱 **Mobile**: Developers with USSD/SMS experience
-
-## 👥 Community
-
-- **Slack**: [Join our community](https://farmconnect-africa.slack.com)
-- **Forum**: [Discuss features and ideas](https://forum.farmconnect.africa)
-- **Twitter**: [@FarmConnectAfrica](https://twitter.com/farmconnectafrica)
-- **Monthly Meetup**: First Saturday of every month (virtual)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-We chose MIT to encourage:
-- Commercial use by social enterprises
-- Modification and distribution
-- Private use by governments and NGOs
-- Patent protection for contributors
-
-## 🙏 Acknowledgments
-
-- **African Union's CAADP** for agricultural development frameworks
-- **CGIAR** for open agricultural research data
-- **Farmers** who provided feedback during our pilot programs
-- **Contributors** who dedicate their time to this mission
-- **Sponsors** who make this work possible
 
 ## 📊 Impact Metrics
 
@@ -313,29 +276,3 @@ We chose MIT to encourage:
 | Market Transactions | 500/month | 100,000/month |
 | Languages Supported | 4 | 20 |
 
-## 💼 For Organizations
-
-**NGOs and Development Partners**: We provide white-label versions and can integrate with your existing programs. Contact us at partners@farmconnect.africa
-
-**Governments**: Looking to digitize extension services? We offer sovereign hosting and custom deployments.
-
-**Researchers**: Access anonymous aggregated data for agricultural research through our data partnership program.
-
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a ⭐️ to show your support!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=your-org/farmconnect-africa&type=Date)](https://star-history.com/#your-org/farmconnect-africa&Date)
-
-## 📬 Contact
-
-- **General Inquiries**: hello@farmconnect.africa
-- **Partnerships**: partners@farmconnect.africa
-- **Technical Support**: support@farmconnect.africa
-- **Security Issues**: security@farmconnect.africa
-
----
-
-**Built with ❤️ for Africa's farmers**
-
-*"The best time to plant a tree was 20 years ago. The second best time is now."* - African Proverb
