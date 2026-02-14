@@ -1,0 +1,75 @@
+{
+  "name": "farmconnect-africa",
+  "version": "1.0.0",
+  "description": "Empowering Africa's smallholder farmers through accessible agricultural intelligence",
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "migration:create": "cd services/api && npm run migration:create",
+    "migration:run": "cd services/api && npm run migration:run",
+    "migration:revert": "cd services/api && npm run migration:revert",
+    "seed": "cd services/api && npm run seed",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "agriculture",
+    "africa",
+    "smallholder-farmers",
+    "agritech",
+    "mobile-first",
+    "offline-first",
+    "ussd",
+    "sms",
+    "market-access",
+    "food-security"
+  ],
+  "author": "FarmConnect Africa Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/farmconnect-africa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/farmconnect-africa/issues"
+  },
+  "homepage": "https://farmconnect.africa",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.0",
+    "turbo": "^1.11.0",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}
